@@ -1,0 +1,103 @@
+Restore Archived Project report for Nios2_MemoryMapLib_SDRAM
+Fri Feb 03 09:00:26 2012
+Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Fri Feb 03 09:00:26 2012 ;
+; Revision Name                   ; Nios2_MemoryMapLib_SDRAM              ;
+; Top-level Entity Name           ; Nios2_MemoryMapLib_top                ;
+; Family                          ; Cyclone III                           ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/home/quartus/Nios2_MemoryMapLib_SDRAM/Nios2_MemoryMapLib_SDRAM.qar' into the 'C:/home/quartus/Nios2_MemoryMapLib_SDRAM_Release/' directory
+Info: Generated report 'Nios2_MemoryMapLib_SDRAM.restore.rpt'
+Info: Evaluation of Tcl script c:/altera/11.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 141 megabytes
+    Info: Processing ended: Fri Feb 03 09:00:26 2012
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++---------------------------------------------------------------------+
+; Files Restored                                                      ;
++---------------------------------------------------------------------+
+; File Name                                                           ;
++---------------------------------------------------------------------+
+; Nios2MemoryMapSDRAM.qip                                             ;
+; Nios2MemoryMapSDRAM.v                                               ;
+; Nios2_MemoryMapLib_SDRAM.qpf                                        ;
+; Nios2_MemoryMapLib_SDRAM.qsf                                        ;
+; Nios2_MemoryMapLib_SDRAM.sopc                                       ;
+; cpu_0.sdc                                                           ;
+; cpu_0.v                                                             ;
+; cpu_0_jtag_debug_module_sysclk.v                                    ;
+; cpu_0_jtag_debug_module_tck.v                                       ;
+; cpu_0_jtag_debug_module_wrapper.v                                   ;
+; cpu_0_oci_test_bench.v                                              ;
+; cpu_0_ociram_default_contents.mif                                   ;
+; cpu_0_rf_ram_a.mif                                                  ;
+; cpu_0_rf_ram_b.mif                                                  ;
+; cpu_0_test_bench.v                                                  ;
+; hdl/Nios2_MemoryMap_top.v                                           ;
+; hdl/decode7seg.v                                                    ;
+; hdl/dff.v                                                           ;
+; hdl/pwm.v                                                           ;
+; hdl/pwm_avalon.v                                                    ;
+; hdl/pwm_avalon_hw.tcl                                               ;
+; incremental_db/compiled_partitions/Nios2_MemoryMapLib_SDRAM.db_info ;
+; jtag_uart_0.v                                                       ;
+; pio_0.v                                                             ;
+; pwm_avalon_0.v                                                      ;
+; sdram_0.v                                                           ;
+; sopc_add_qip_file.tcl                                               ;
+; sysid.v                                                             ;
+; uart_0.v                                                            ;
+; assignment_defaults.qdf                                             ;
++---------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

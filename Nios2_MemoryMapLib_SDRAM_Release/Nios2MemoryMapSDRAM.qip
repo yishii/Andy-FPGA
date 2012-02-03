@@ -1,0 +1,18 @@
+# clk_0
+# cpu_0
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu_0.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu_0.ocp]
+# jtag_uart_0
+# uart_0
+# pio_0
+# sysid
+# sdram_0
+# pwm_avalon_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) hdl/pwm_avalon_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) hdl/pwm_avalon.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) hdl/pwm.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) hdl/dff.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) pwm_avalon_0.v]
+# null
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 000C2961FE8100000134F6A8AC63 
+ 
